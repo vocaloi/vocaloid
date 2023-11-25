@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>voca runs u</title>
+  <link rel="icon" href="main/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <a class="btn" onclick="fadeOutAndNavigate()" href="#">
+      <span class="btnInner">vocaloid</span>
+    </a>
+    <div class="image-with-shadow">
+      <img src="laingif4.gif" alt="image">
+    </div>
+  </div>
+  <script>
+    function fadeOutAndNavigate() {
+      document.body.classList.add('fadeOut');
+      setTimeout(() => {
+        window.location.href = 'main/index2.html';
+      }, 500);
+    }
+  </script>
+</body>
+</html>

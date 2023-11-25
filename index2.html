@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>voca runs u</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <script src="js/mem.js" type="text/javascript"></script>
+    <script src="js/snowstorm.js" type="text/javascript"></script>
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="black-background"></div>
+    <div class="container">
+    </script>
+        <div class="content">
+            <img src="laingif.gif" alt="vocaimg">
+            <pre class="names">
+            <a class="script" onclick="showPopup('script')">script</a>
+            <a class="hellside" onclick="showPopup('hellside')">hellside</a>
+            <a class="luci" onclick="showPopup('luci')">luci</a>
+            <a class="bond" onclick="showPopup('bond')">bond</a>
+            <a class="drizzy" onclick="showPopup('drizzy')">drizzy</a>
+            <a class="hunter" onclick="showPopup('hunter')">hunter</a>
+            <a class="salmon" onclick="showPopup('salmon')">salmon</a>
+            <a class="warzone" onclick="showPopup('warzone')">warzone</a>
+            <a class="cell" onclick="showPopup('cell')">cell</a>
+            <a class="charm" onclick="showPopup('charm')">charm</a>
+        </pre>
+    </div>
+
+    <div class="popup" id="popup-script">
+        <span class="popup-close" onclick="hidePopup('script')">X</span>
+        <h3>script</h3>
+        <p>awesome cool dude</p>
+    </div>
+
+    <div class="popup" id="popup-hellside">
+        <span class="popup-close" onclick="hidePopup('hellside')">X</span>
+        <h3>hellside</h3>
+        <a href="mailto:romeo@waifu.club">1 slit, slit wrist bitch; romeo@waifu.club</a></p>
+    </div>
+
+    <div class="popup" id="popup-luci">
+        <span class="popup-close" onclick="hidePopup('luci')">X</span>
+        <h3>lucilfer</h3>
+        <p><a href="mailto:lucilfer@waifu.club">lucilfer@waifu.club</a></p>
+    </div>
+
+    <div class="popup" id="popup-bond">
+        <span class="popup-close" onclick="hidePopup('bond')">X</span>
+        <h3>bond</h3>
+        <p>fat loser skid</p>
+    </div>
+
+    <div class="popup" id="popup-drizzy">
+        <span class="popup-close" onclick="hidePopup('drizzy')">X</span>
+        <h3>drizzy</h3>
+        <p>biggest btc larp ever</p>
+    </div>
+
+    <div class="popup" id="popup-hunter">
+        <span class="popup-close" onclick="hidePopup('hunter')">X</span>
+        <h3>hunter</h3>
+        <p><a href="https://t.me/hhunnnterr" target="_blank">https://t.me/hhunnnterr</a> // com slut</p>
+    </div>
+
+    <div class="popup" id="popup-salmon">
+        <span class="popup-close" onclick="hidePopup('salmon')">X</span>
+        <h3>salmon</h3>
+        <p>that one fish guy</p>
+    </div>
+
+    <div class="popup" id="popup-warzone">
+        <span class="popup-close" onclick="hidePopup('warzone')">X</span>
+        <h3>wz</h3>
+        <p>sped kid</p>
+    </div>
+
+    <div class="popup" id="popup-cell">
+        <span class="popup-close" onclick="hidePopup('cell')">X</span>
+        <h3>angry man cell</h3>
+        <p>random e girl (transgender) </p>
+    </div>
+
+    <div class="popup" id="popup-charm">
+        <span class="popup-close" onclick="hidePopup('charm')">X</span>
+        <h3>charm</h3>
+        <p>sprite, codeine, grubba, weed, thats the recipe to get geeked</p>
+    </div>
+
+    <script>
+              var memberPopups = document.querySelectorAll('.popup');
+
+        function showPopup(id) {
+            for (var i = 0; i < memberPopups.length; i++) {
+                memberPopups[i].style.display = 'none';
+            }
+            var popup = document.getElementById('popup-' + id);
+            popup.style.display = 'block';
+        }
+
+        function hidePopup(id) {
+            var popup = document.getElementById('popup-' + id);
+            popup.style.display = 'none';
+        }
+        document.body.onload = function() {
+            document.querySelector('.black-background').style.opacity = 0;
+            document.body.style.opacity = 1;
+        };
+    </script>
+</body>
+
+</html>
